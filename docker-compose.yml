@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:alpine
+    expose:
+      - 5432
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: default
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
