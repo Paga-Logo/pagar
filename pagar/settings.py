@@ -39,6 +39,7 @@ DOWNLOADED_APP = ()
 
 CUSTOM_APPS = (
     'clients',
+    'debts',
     'user_base'
 )
 
