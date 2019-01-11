@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  postgres:
-    container_name: postgres
+  postgres_pagar:
+    container_name: postgres_pagar
     image: postgres:alpine
     expose:
       - 5432
